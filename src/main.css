@@ -1,0 +1,319 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+}
+
+.jk-slider {
+    width: 100%;
+}
+
+.btn-Malik {
+    display: inline-block;
+    font-weight: 600;
+    color: #55595c;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 0px solid transparent;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    border-radius: 0;
+    -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .btn-Malik {
+        -webkit-transition: none;
+        transition: none;
+    }
+}
+
+.btn-Malik:hover {
+    color: #55595c;
+    text-decoration: none;
+}
+
+.btn-border {
+    color: #1a1a1a;
+    background-color: #c2b588;
+    border-color: #c2b588;
+}
+
+.btn-border:hover {
+    color: #c2b588;
+    background-color: #1a1a1a;
+    border-color: #c2b588;
+}
+
+#brands img {
+    margin: 10px;
+    align-items: center;
+}
+
+#services {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#services p {
+    font-size: 16px;
+    text-align: justify;
+    padding: 5px;
+}
+
+#carouselSlidesOnly img {
+    height: 240px;
+}
+
+footer {
+    background: #1a1a1a !important;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 50px;
+    width: 100%;
+}
+
+footer h5 {
+    padding-left: 10px;
+    border-left: 3px solid #c2b588;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color: #c2b588;
+}
+
+footer a {
+    color: #c2b588;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+footer ul.social li {
+    padding: 3px 0;
+}
+
+footer ul.social li a i {
+    margin-right: 5px;
+    font-size: 25px;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+footer ul.social li:hover a i {
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+footer ul.social li a, footer ul.quick-links li a {
+    color: #c2b588;
+}
+
+footer ul.social li a:hover {
+    color: #eeeeee;
+}
+
+footer ul.quick-links li {
+    padding: 3px 0;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+footer ul.quick-links li:hover {
+    padding: 3px 0;
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+footer ul.quick-links li a i {
+    margin-right: 5px;
+}
+
+footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+.contentSection {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-link:hover {
+    color: #fff;
+}
+
+@media (max-width:767px) {
+    footer h5 {
+        padding-left: 0;
+        border-left: transparent;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Parallax Scroll */
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url("/Assets/parallax-bg/bg-1.jpg");
+    min-height: 100%;
+}
+
+.bgimg-2 {
+    background-image: url("/Assets/parallax-bg/bg-2.jpg");
+    min-height: 400px;
+}
+
+.bgimg-3 {
+    background-image: url("/Assets/parallax-bg/bg-3.jpg");
+    min-height: 400px;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #1a1a1a;
+}
+
+.caption span.order {
+    background-color: #c2b588;
+    color: #1a1a1a;
+    padding: 18px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #1a1a1a;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+/* image hover effect */
+
+.img-container {
+    position: relative;
+    width: 100%;
+    max-height: 200px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    opacity: 1;
+    transition: .8s ease-in-out;
+}
+
+.centered:hover {
+    opacity: 0;
+}
+
+.overlay-link {
+    position: absolute;
+    bottom: 0;
+    /* Black see-through */
+    color: #fff;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: #fff;
+    font-size: large;
+    padding: 20px;
+    text-align: center;
+}
+
+.overlay-link button {
+    padding: 10px;
+}
+
+.overlay-link button:hover {
+    /*background-color: rgba(194, 181, 136, 0.2);*/
+    color: #fff;
+}
+
+.img-container:hover .overlay-link {
+    opacity: 1;
+}
+
+#service-row {
+    margin-top: 20px;
+}
+
+.card-img-wrap {
+    overflow: hidden;
+    position: relative;
+}
+
+.card-img-wrap img {
+    width: 100%;
+    height: 200px;
+}
+
+/*.card-img-wrap:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(194, 181, 136, 0.2);
+    opacity: 0;
+    transition: opacity .25s;
+}*/
+
+.card-img-wrap img {
+    transition: transform .25s;
+    transition: .25s ease-in-out;
+    width: 100%;
+}
+
+.card-img-wrap:hover img {
+    transform: scale(1.2);
+    filter: blur(2px);
+}
+
+.card-img-wrap:hover:after {
+    opacity: 1;
+}
