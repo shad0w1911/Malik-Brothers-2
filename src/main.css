@@ -176,7 +176,7 @@ footer ul.quick-links li:hover a i {
 /* Contact */
 
 .contact1 {
-    background-image: url(/Assets/parallax-bg/contact-bg.jpg);
+    background-image: url(./Assets/parallax-bg/contact-bg.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -195,17 +195,17 @@ footer ul.quick-links li:hover a i {
 }
 
 .bgimg-1 {
-    background-image: url("/Assets/parallax-bg/bg-1.jpg");
+    background-image: url(./Assets/parallax-bg/bg-1.jpg);
     min-height: 100%;
 }
 
 .bgimg-2 {
-    background-image: url("/Assets/parallax-bg/bg-2.jpg");
+    background-image: url(./Assets/parallax-bg/bg-2.jpg);
     min-height: 400px;
 }
 
 .bgimg-3 {
-    background-image: url("/Assets/parallax-bg/bg-3.jpg");
+    background-image: url(./Assets/parallax-bg/bg-3.jpg);
     min-height: 400px;
 }
 
