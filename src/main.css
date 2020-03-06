@@ -82,6 +82,8 @@ body, html {
     height: 240px;
 }
 
+/* footer */
+
 footer {
     background: #1a1a1a !important;
     text-align: center;
@@ -167,6 +169,18 @@ footer ul.quick-links li:hover a i {
         padding-bottom: 0px;
         margin-bottom: 10px;
     }
+}
+
+/* footer */
+
+/* Contact */
+
+.contact1 {
+    background-image: url(/Assets/parallax-bg/contact-bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Parallax Scroll */
