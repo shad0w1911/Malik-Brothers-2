@@ -13,7 +13,8 @@
     <link rel="stylesheet" type="text/css" href="src/vendor/css-hamburgers/hamburgers.min.css">
     <link rel="stylesheet" type="text/css" href="src/vendor/select2/select2.min.css">
     <link rel="stylesheet" type="text/css" href="src/css/util.css">
-    <link rel="stylesheet" type="text/css" href="src/css/main.css">
+    <link rel="stylesheet" type="text/css" href="src/css/contact.css">
+    <!--link rel="stylesheet" type="text/css" href="src/css/carousel.css"-->
     <link rel="stylesheet" type="text/css" href="src/w3-stylesheet.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -24,10 +25,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
+    <!-- <a href="https://www.jqueryscript.net/tags.php?/Carousel/">Carousel</a> Extension -->
+    <script src="carousel.js"></script>
 
 </head>
 
 <body>
+    <div id="fb-root"></div>
     <!-- Navigation Bar -->
     <div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -193,6 +199,36 @@
         </div>
     </div>
 
+    <div class="bgimg-3">
+        <div class="caption">
+            <span class="order" style="background-color:transparent;font-size:25px; color: #fff;">SOCIAL MEDIA</span>
+        </div>
+    </div>
+    <!-- facebook feed -->
+
+    <div style="color:#ddd;background-color:#1a1a1a;text-align:center;padding:50px 80px;text-align: justify;">
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-3ecefc9d-1795-4c25-ab53-729c19e6a110"></div>
+        <!--div class="row">
+            <div class="col-lg-6">
+                
+                <div class="fb-page" data-href="https://www.facebook.com/MalikBrothersPk" data-tabs="timeline"
+                    data-width="500" data-height="350" data-small-header="true" data-adapt-container-width="true"
+                    data-hide-cover="true" data-show-facepile="false">
+                    <blockquote cite="https://www.facebook.com/MalikBrothersPk" class="fb-xfbml-parse-ignore"><a
+                            href="https://www.facebook.com/MalikBrothersPk">Malik Brothers</a></blockquote>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                <div class="elfsight-app-56f36d18-2989-4720-8ebc-80d0b6688ced"></div>
+            </div>
+        </div-->
+
+    </div>
+
+    <!-- facebook feed -->
+
     <!-- Brand Partners -->
 
     <div class="bgimg-3">
@@ -202,12 +238,12 @@
         </div>
     </div>
     <div style="color:#ddd;background-color:#1a1a1a;text-align:center;padding:50px 80px;text-align: justify;">
-        <p style="text-align: center;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <p style="text-align: center;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
 
         <!-- Carousel -->
 
         <div class="container text-center my-3">
-            <h3>Bootstrap 4 Multiple Item Carousel</h3>
             <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
                 <div class="carousel-inner w-100" role="listbox">
                     <div class="carousel-item row no-gutters active">
@@ -281,10 +317,10 @@
                 </a>
             </div>
         </div>
-
-        <!-- Carousel -->
-
     </div>
+
+
+    <!-- Carousel -->
 
     <!-- Brand Partners-->
 
@@ -293,6 +329,8 @@
             <span class="order">CONTACT US</span>
         </div>
     </div>
+
+
 
     <!-- Footer -->
     <footer class="container-fluid">
