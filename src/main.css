@@ -11,6 +11,10 @@ body, html {
     color: #777;
 }
 
+.navLink {
+    font-size: 10px;
+}
+
 .jk-slider {
     width: 100%;
 }
@@ -176,8 +180,10 @@ footer ul.quick-links li:hover a i {
 /* Brand Partners*/
 
 .brand-Img {
-    min-width: 270px;
-    min-height: 270px;
+    min-width: 250px;
+    min-height: 150px;
+    max-width: 260px;
+    max-height: 160px;
 }
 
 /* Brand Partners*/
@@ -256,7 +262,7 @@ h3 {
 .img-container {
     position: relative;
     width: 100%;
-    max-height: 200px;
+    max-height: 180px;
 }
 
 .centered {
