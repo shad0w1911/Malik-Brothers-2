@@ -1,10 +1,12 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
 html {
     margin: 0;
     padding: 0;
 }
 
-body, html {
+body,
+html {
     height: 100%;
     margin: 0;
     font: 400 15px/1.8 "Lato", sans-serif;
@@ -128,7 +130,8 @@ footer ul.social li:hover a i {
     margin-top: -10px;
 }
 
-footer ul.social li a, footer ul.quick-links li a {
+footer ul.social li a,
+footer ul.quick-links li a {
     color: #c2b588;
 }
 
@@ -180,10 +183,17 @@ footer ul.quick-links li:hover a i {
 /* Brand Partners*/
 
 .brand-Img {
-    min-width: 250px;
-    min-height: 150px;
     max-width: 260px;
     max-height: 160px;
+}
+
+@media (max-width:767px) {
+    .brand-Img {
+        min-width: 150px;
+        min-height: 75px;
+        max-width: 160px;
+        max-height: 80px;
+    }
 }
 
 /* Brand Partners*/
@@ -200,7 +210,9 @@ footer ul.quick-links li:hover a i {
 
 /* Parallax Scroll */
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
     position: relative;
     opacity: 0.65;
     background-attachment: fixed;
@@ -252,7 +264,10 @@ h3 {
 /* Turn off parallax scrolling for tablets and phones */
 
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
         background-attachment: scroll;
     }
 }
